@@ -8,7 +8,7 @@ import type {
 export class AmazonawsConnectContactLensApi implements ICredentialType {
 	name = 'N8nDevAmazonawsConnectContactLensApi';
 
-	displayName = 'amazonaws-connect-contact-lens API';
+	displayName = 'Amazonaws Connect Contact Lens API';
 
 	icon: Icon = { light: 'file:../nodes/AmazonawsConnectContactLens/amazonaws-connect-contact-lens.png', dark: 'file:../nodes/AmazonawsConnectContactLens/amazonaws-connect-contact-lens.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsConnectContactLensApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'http://contact-lens.us-east-1.amazonaws.com',
-			description: 'The base URL of your amazonaws-connect-contact-lens API server',
+			description: 'The base URL of your Amazonaws Connect Contact Lens API server',
 		},
 		{
 			displayName: 'API Key',

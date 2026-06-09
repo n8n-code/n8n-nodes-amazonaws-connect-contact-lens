@@ -100,7 +100,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Instance Id",
+			"displayName": "Instance ID",
 			"name": "InstanceId",
 			"type": "string",
 			"default": "",
@@ -126,7 +126,7 @@ export const defaultDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Contact Id",
+			"displayName": "Contact ID",
 			"name": "ContactId",
 			"type": "string",
 			"default": "",

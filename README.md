@@ -53,9 +53,12 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Post list realtime contact analysis segments |
+<details>
+<summary><b>Default</b> (1 operations)</summary>
+
+- Post List Realtime Contact Analysis Segments
+
+</details>
 
 ---
 

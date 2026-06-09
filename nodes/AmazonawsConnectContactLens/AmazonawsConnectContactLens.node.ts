@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class AmazonawsConnectContactLens implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'amazonaws-connect-contact-lens',
+		displayName: 'Amazonaws Connect Contact Lens',
 		name: 'N8nDevAmazonawsConnectContactLens',
 		icon: { light: 'file:./amazonaws-connect-contact-lens.png', dark: 'file:./amazonaws-connect-contact-lens.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Contact Lens for Amazon Connect enables you to analyze conversations between customer and agents, by using speech transcription, natural language processing, and intelligent search capabilities...',
-		defaults: { name: 'amazonaws-connect-contact-lens' },
+		description: 'Contact Lens analyzes customer-agent conversations via speech transcription, NLP, and intelligent search.',
+		defaults: { name: 'Amazonaws Connect Contact Lens' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
